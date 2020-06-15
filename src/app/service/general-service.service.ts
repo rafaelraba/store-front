@@ -15,4 +15,8 @@ export class GeneralServiceService {
   pruebaService(): Observable<any> {
     return this.http.get<any[]>(this.urlApi);
   }
+
+  saveProduct(product: any){
+    return this.http.post(`${this.urlApi}/product`, product)
+  }
 }
