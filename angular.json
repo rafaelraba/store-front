@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "store-front"
+  "defaultProject": "store-front",
+  "cli": {
+    "analytics": false
+  }
 }
